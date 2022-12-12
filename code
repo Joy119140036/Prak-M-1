@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mg1_119140026</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img
+            src="https://i.postimg.cc/rpgdNLLv/Whats-App-Image-2022-10-05-at-01-50-47.jpg"
+            width="200"
+            height="200"
+        />
+        <h1>Hay, Saya Joy Aloita Sembiring</h1>
+        <p>List :</p>
+    </header>
+    <content>
+        <nav>
+            <ul>
+                <li><a href="#a">Tentang Saya</a></li>
+                <li><a href="#b">Pengalamn Kerja</a></li>
+                <li><a href="#c">Hubungi Saya</a></li>
+            </ul>
+        </nav>
+    </content>
+    <article id="a">
+        <h3>Tentang Saya</h3>
+    </article>
+    <p>
+        Saya merupakan mahasiswa Teknik Informatika angkatan 2019 Institut Teknologi Sumatera.
+        Saya lahir pada tanggal 21 Juli 2000. Saat ini saya sedang mendalami perihal Data baik Data Mining, Data Analyst, ataupun Data Sciences
+        Hal terpenting dalam hidup ini adalah dimana kita sebagai manusai bisa salaing menghargai dan menghormati baik dari perbedaan Suku, Agama, Ras, dan Golongan (SARA).
+    </p>
+    <video width="500" height="250" src="NEMU _ Beverage and Happiness.mp4" type="video/mp4" controls>
+    </video>
+    <p>Video Projek Saya</p>
+    <article id="b">
+        <h3>Pengalaman Kerja</h3>
+    </article>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Peusahaan</th>
+                <th colspan="2">Waktu</th>
+            </tr>
+            <tr>
+                <th>Mulai</th>
+                <th>Selesai</th>
+            </tr>
+        </tbody>
+        <tr>
+            <td>1</td>
+            <td>Anggota</td>
+            <td>TNI</td>
+            <td>April 2020</td>
+            <td>Juni 2020</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jendral</td>
+            <td>TNI</td>
+            <td>Juni 2020</td>
+            <td>September 2020</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Executive Director</td>
+            <td>Berikan Protein Initiative</td>
+            <td>Juni 2022</td>
+            <td>September 2022</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Data Analyst</td>
+            <td>Bank Syariah Indonesia KCP Bintaro</td>
+            <td>Juni 2022</td>
+            <td>Juli 2022</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Project Manager</td>
+            <td>Media Data Komputer</td>
+            <td>September 2022</td>
+            <td>Now</td>
+        </tr>
+    </table>
+    <article id="c">
+        <h3>Hubungi saya</h3>
+    </article>
+    <form>
+        <label>Nama : </label>
+        <input type="text" name="text-input"/> <br/>
+    </form>
+    <form>
+        <label>Sudah nonton Video Projek Saya?</label><br/>
+        <label>
+            <input type="radio" name="radio-input" value="value-1"/> Sudah <br/>
+        </label>
+        <label>
+            <input type="radio" name="radio-input" value="value-2"/> Belum <br/>
+        </label>
+    </form>
+    <form>
+        <label>
+            <input type="checkbox" name="checkbox-input" value="value-1"/> Tidak Sama Sekali <br/>
+        </label>
+        <label>
+            <input type="checkbox" name="checkbox-input" value="value-2"/> Sekali Menonton<br/>
+        </label>
+        <label>
+            <input type="checkbox" name="checkbox-input" value="value-3"/> Lebih dari Sekali <br/>
+        </label>
+        <label>
+            <input type="submit" name="submit-input" value="kirim"/>
+        </label>
+    </form>
+</body>
+<footer>
+    &copy; Joy Aloita Sembiring (119140036)
+</footer>
+</html>
